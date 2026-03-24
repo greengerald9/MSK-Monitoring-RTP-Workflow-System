@@ -5,3 +5,10 @@ Injury / Status
 → Trend Observation  
 → Decision Support  
 → Return-to-Play
+```
+Injury / Status  
+→ Daily Monitoring  
+→ Trend Observation  
+→ Decision Support  
+→ Return-to-Play
+```
