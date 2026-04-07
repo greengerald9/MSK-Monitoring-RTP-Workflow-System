@@ -1,14 +1,27 @@
 # MSK Monitoring & Return-to-Play Decision System (Azure AI Prototype)
-This project explores a simple workflow for MSK monitoring and return-to-play decision-making, using structured inputs (pain, load, energy) to support consistent tracking, trend identification, and better-informed progression decisions.
 
-```
-Injury Status Input (Pain, Load, Energy, Readiness)
-→ Daily Monitoring (Structured Data Capture)
-→ Trend Analysis (Fatigue, Recovery Patterns)
-→ AI-Assisted Decision Support
-→ Return-to-Play Progression Recommendations
-```
-## 📊 Example Data & Output
+AI-assisted workflow for tracking musculoskeletal (MSK) injuries and supporting return-to-play decisions using structured performance and recovery data.
 
-- Sample dataset → /data/sample-inputs.csv  
+## Overview
+This system captures daily athlete inputs (pain, training load, energy, readiness) and translates them into consistent monitoring, trend analysis, and decision-support outputs.
+
+The goal is to reduce subjective decision-making and provide a more structured, data-informed approach to rehabilitation and performance progression.
+
+## 🔁 System Flow
+
+Injury Status  
+→ Daily Monitoring (pain, load, energy, readiness)  
+→ Trend Analysis  
+→ AI-assisted Decision Support  
+→ Return-to-Play Progression  
+
+## 📊 Example
+
+- Input data → /data/sample-inputs.csv  
 - Decision output → /outputs/sample-decisions.md  
+
+## 🚀 Next Steps
+
+- Integrating Azure OpenAI for automated insights and summaries  
+- Expanding into injury risk prediction models  
+- Building a dashboard for real-time monitoring  
