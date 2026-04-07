@@ -20,6 +20,19 @@ Injury Status
 - Input data → /data/sample-inputs.csv  
 - Decision output → /outputs/sample-decisions.md  
 
+## Decision Logic (Simplified)
+
+- Pain decreasing + energy stable → **Progress**
+- Pain increasing + energy low → **Modify**
+- Load increasing + energy dropping → **Hold**
+
+---
+
+## Decision Output
+
+- **Progress** → Increase load or complexity  
+- **Hold** → Maintain current level  
+- **Modify** → Reduce load or adjust exercise  
 ## 🚀 Next Steps
 
 - Integrating Azure OpenAI for automated insights and summaries  
