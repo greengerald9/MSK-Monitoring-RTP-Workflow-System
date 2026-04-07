@@ -8,3 +8,7 @@ Injury Status Input (Pain, Load, Energy, Readiness)
 → AI-Assisted Decision Support
 → Return-to-Play Progression Recommendations
 ```
+## 📊 Example Data & Output
+
+- Sample dataset → /data/sample-inputs.csv  
+- Decision output → /outputs/sample-decisions.md  
